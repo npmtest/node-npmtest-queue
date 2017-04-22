@@ -1,4 +1,7 @@
-# test coverage for  [queue (v4.2.1)](https://github.com/jessetane/queue#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-queue.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-queue) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-queue.svg)](https://travis-ci.org/npmtest/node-npmtest-queue)
+# npmtest-queue
+
+#### basic test coverage for  [queue (v4.2.1)](https://github.com/jessetane/queue#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-queue.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-queue) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-queue.svg)](https://travis-ci.org/npmtest/node-npmtest-queue)
+
 #### asynchronous function queue with adjustable concurrency
 
 [![NPM](https://nodei.co/npm/queue.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/queue)
@@ -85,7 +88,8 @@
         "test-browser": "standard && browserify test/index.js > test/bundle.js && echo \"open test/index.html in your browser\"",
         "travis": "standard && istanbul cover test --report lcovonly && cat coverage/lcov.info | coveralls"
     },
-    "version": "4.2.1"
+    "version": "4.2.1",
+    "bin": {}
 }
 ```
 
